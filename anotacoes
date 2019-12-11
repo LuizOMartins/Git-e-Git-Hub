@@ -1,0 +1,56 @@
+Sistemas de controle de versão:
+
+CVS
+SVN
+Mercurial GIT
+
+
+
+-------------------------
+
+
+git --version
+//mostra a versão
+
+git init 
+//inicializar o repositorio
+
+git status
+//mostra informações
+
+git add <nome do arquivo>
+//Para adicionar no git e ele  ser monitorado pelo git:
+
+
+git add .
+//adiciona todos os arquivo da pasta atual.
+
+
+commit :
+um checkpoint de alterações
+
+git commit  -m  "Criando arquivo index.html de lista de cursos"
+-m: mensagem de commit 
+
+
+
+git log
+// historico de alteracao
+// hash do commit
+// branch
+
+
+HEAD: onde a gente esta.
+- Estado atual do nosso código, ou seja, onde o Git nos colocou.
+
+
+git config --local
+//configuracao para o projeto local
+
+git confing --global
+//config para toda a maquina
+git config  --global user.name  "Luiz Eduardo"
+
+git log --oneline
+
+https://devhints.io/git-log
