@@ -4,10 +4,7 @@ CVS
 SVN
 Mercurial GIT
 
-
-
 -------------------------
-
 
 git --version
 //mostra a versão
@@ -52,5 +49,33 @@ git confing --global
 git config  --global user.name  "Luiz Eduardo"
 
 git log --oneline
+//mostrar historico de commit em uma linha
 
 https://devhints.io/git-log
+
+touch .gitignore
+//criar gitignore
+
+-- no arquivo .gitignore
+nomedoarquivo.extensão
+//deixa de monitorar aquivo
+pasta/
+//deixa de monitorar toda a pasta
+
+git init --bare
+//repositorio para indicar repositorio com alterações dos arquivos.
+
+git remote
+//listando todos os repositorios remotos que o meu repositorio conhece
+
+git remote add
+//adicionar repositorio remoto
+
+ git remote add local C:/Users/luyz_/Documents/GitHub/Git-e-Git-Hub/servidor/
+
+git remote -v
+mostra o caminho / informação
+
+
+
+-- 03 -  Sincronizando dados
